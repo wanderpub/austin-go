@@ -1,12 +1,12 @@
 Name: austin.rpc
-ListenOn: 127.0.0.1:2001
+ListenOn: 127.0.0.1:8089
 Mysql:
-  Dsn: root:123456@tcp(127.0.0.1:3306)/austin?charset=utf8mb4&parseTime=True&loc=Local
+  Dsn: root:123456@tcp(172.16.16.188:3306)/austin?charset=utf8mb4&parseTime=True&loc=Local
   MaxIdleConns: 100
   MaxOpenConns: 100
 Rabbit:
-  URL: amqp://admin:admin@127.0.0.1:5672
+  URL: amqp://wander:123456@172.16.16.188:5672
 CacheRedis:
-  - Host: 127.0.0.1:6379
-    Pass:
+  - Host: 172.16.16.188:6379
+    Pass: wander
     Type: node
