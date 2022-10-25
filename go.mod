@@ -4,6 +4,10 @@ go 1.16
 
 require (
 	github.com/GUAIK-ORG/go-snowflake v0.0.0-20200116064823-220c4260e85f
+	github.com/alibabacloud-go/darabonba-openapi/v2 v2.0.0
+	github.com/alibabacloud-go/dysmsapi-20170525/v3 v3.0.4
+	github.com/alibabacloud-go/tea v1.1.19
+	github.com/alibabacloud-go/tea-utils v1.4.3 // indirect
 	github.com/golang/protobuf v1.5.2
 	github.com/json-iterator/go v1.1.12
 	github.com/panjf2000/ants/v2 v2.4.8
